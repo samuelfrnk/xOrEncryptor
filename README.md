@@ -1,6 +1,7 @@
 # xOrEncryptor
 
 # Introduction
+
 xOrEncryptor is a simple tool for encrypting and decrypting files using the XOR encryption method. 
 This method uses a symmetric key, making the encryption and decryption processes identical.
 ---
