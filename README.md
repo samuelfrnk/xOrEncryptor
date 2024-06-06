@@ -32,7 +32,7 @@ Encryption complete. Original file 'tryout_file.png' destroyed.
 After the encryption is complete there are two new text files "encrypted_data.txt" and "key.txt". The original file is gone. 
 #### Decription
 
-1Decryption: From the root directory run the following command.
+From the root directory run the following command:
 
 ```console
 python3 Main.py decrypt key.txt encrypted_data.txt tryout_file.png
