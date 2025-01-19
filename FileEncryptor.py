@@ -1,5 +1,6 @@
 import os
 import random
+import secrets
 
 
 class FileEncryptor:
@@ -8,7 +9,7 @@ class FileEncryptor:
         pass
 
     def generate_random_key(self, length):
-        return ''.join(random.choice('01') for _ in range(length))
+        return ''.join(secrets.choice('01') for _ in range(length))
 
     def xor_encrypt(self, data, key):
         return bytes([b ^ int(k) for b, k in zip(data, key)])
